@@ -34,7 +34,7 @@ var client = new Twitter({
 
 switch (liriAction) {
     case "spotify-this-song":
-        getSong();
+        getSong(liriSearch);
         break;
     case "my-tweets":
         getTweet();
@@ -49,14 +49,15 @@ switch (liriAction) {
 
 
 
-function getSong() {
-
+function getSong(liriSearch) {
+    
     if (liriSearch) {
 
         // We will then print the passed song title from process.argv  
         formattString = false;
         // build string without formatting 
         liriSearch = formattSong(valueArr, 3, removeQuotes);
+       
         displaySong(liriSearch);
 
     } else {
