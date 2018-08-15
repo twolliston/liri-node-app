@@ -8,3 +8,6 @@ In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, whi
 # Spotify
 <a> <img src="./images/spotify.gif"> </a>
 
+# Movies
+<a> <img src="./images/movie.gif"> </a>
+
