@@ -11,3 +11,6 @@ In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, whi
 # Movies
 <a> <img src="./images/movie.gif"> </a>
 
+# Do_What_It_Says
+<a> <img src="./images/dowhatitsays.gif"> </a>
+
